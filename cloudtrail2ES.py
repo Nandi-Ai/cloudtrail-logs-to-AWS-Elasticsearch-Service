@@ -177,3 +177,4 @@ def lambda_handler(event, context):
     s3obj.close()
     os.unlink(s3obj.name)
     print( "{} events in {}".format(eventcount, s3obj.name) )
+#end
